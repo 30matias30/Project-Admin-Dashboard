@@ -1,0 +1,98 @@
+/* * {
+    background-image: url(./Imagenes/Background/tanya-grypachevskaya-80x3QULJDN4-unsplash.jpg);    
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+} */
+
+#page {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    background-image: url(./Imagenes/Background/tanya-grypachevskaya-80x3QULJDN4-unsplash.jpg);    
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+#side-bar {
+    
+    height: 100vh;
+    width: 20vw;
+}
+
+#Ilogo {
+    height: 10vh;
+    width: 3vw;
+}
+
+.logo {
+    display: flex;
+    height: auto;
+    position: relative;
+    gap: 1vw;
+    padding: 15px 0;
+    justify-content: center;
+    align-items: center;
+    user-select:none;
+    cursor: pointer;
+}
+
+
+#body {
+    display: flex;
+    flex-flow: column;
+    height: 100vh;
+    width: 80vw;
+    background-color: transparent;
+}
+
+#header {
+    width: 80vw;
+    height: 20vh;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+#middle {
+    display: flex;
+    background-color: transparent;
+    width: 80vw;
+    height: 80vh;
+}
+
+#middle-left {
+    height: 100%;
+    width: 70%;
+    justify-content: center;
+    align-content: center;
+    background-color: transparent;
+}
+
+#middle-right {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 30%;
+    background-color: transparent;
+}
+
+#grid {
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template: 20px 20px 20px / 50px 50px;
+    gap: 10px;
+    justify-content: space-around;
+    align-content: center;
+    background-color: transparent;
+    
+}
+
+.alert {
+    height: 10em;
+    width: 90%;
+    margin: 2em;
+}
