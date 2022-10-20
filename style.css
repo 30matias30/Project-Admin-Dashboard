@@ -83,11 +83,11 @@
     height: 100%;
     width: 100%;
     display: grid;
-    grid-template: 20px 20px 20px / 50px 50px;
-    gap: 10px;
+    grid-template: 5em 5em 5em / 10em 10em;
     justify-content: space-around;
     align-content: center;
     background-color: transparent;
+    gap: 10em;
     
 }
 
@@ -118,4 +118,13 @@
 
 .header {
     display: flex;
+}
+
+.PreView {
+    display: flex;
+    align-items: center;
+    padding: 1em;
+    height: 10em;
+    width: 20em;
+    font-size: small;
 }
