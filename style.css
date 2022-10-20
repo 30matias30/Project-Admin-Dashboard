@@ -96,3 +96,26 @@
     width: 90%;
     margin: 2em;
 }
+
+.side-content {
+    display: flex;
+    flex-flow: column;    
+    padding: 2em;
+}
+
+.side-content a {
+    display: flex;
+    align-items: center;
+}
+
+.side-content img {
+    padding-right: 1em;
+}
+
+.side-content img {
+    width: 2em;        
+}
+
+.header {
+    display: flex;
+}
